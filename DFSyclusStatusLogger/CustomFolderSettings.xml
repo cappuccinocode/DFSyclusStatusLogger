@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomFolderSettings xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
+  <CustomFolderSettings FolderID="json_source_files">
+    <FolderEnabled>true</FolderEnabled>
+    <FolderDescription>
+      Files in format JSON corresponding to the example project
+    </FolderDescription>
+    <FolderFilter>*.json</FolderFilter>
+    <FolderPath>F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Source</FolderPath>
+    <FolderIncludeSub>false</FolderIncludeSub>
+    <ExecutableFile>CMD.EXE</ExecutableFile>
+    <!-- The block {0} will be automatically replaced with the
+      corresponding file name -->
+    <ExecutableArguments>
+      /C echo It works properly for .json extension-- File {0} &gt; F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Source\it_works.json
+    </ExecutableArguments>
+  </CustomFolderSettings>
+  <CustomFolderSettings FolderID="json_syclus_files">
+    <FolderEnabled>true</FolderEnabled>
+    <FolderDescription>
+      Files in format JSON corresponding to the example project
+    </FolderDescription>
+    <FolderFilter>*.json</FolderFilter>
+    <FolderPath>F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Syclus</FolderPath>
+    <FolderIncludeSub>true</FolderIncludeSub>
+    <ExecutableFile>CMD.EXE</ExecutableFile>
+    <!-- The block {0} will be automatically replaced with the
+      corresponding file name -->
+    <ExecutableArguments>
+      /C echo It works properly for .json extension-- File {0} &gt; F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Syclus\it_works.json
+    </ExecutableArguments>
+  </CustomFolderSettings>
+  <CustomFolderSettings FolderID="json_temp_files">
+    <FolderEnabled>true</FolderEnabled>
+    <FolderDescription>
+      Files in format JSON corresponding to the example project
+    </FolderDescription>
+    <FolderFilter>*.json</FolderFilter>
+    <FolderPath>F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Temp</FolderPath>
+    <FolderIncludeSub>false</FolderIncludeSub>
+    <ExecutableFile>CMD.EXE</ExecutableFile>
+    <!-- The block {0} will be automatically replaced with the
+      corresponding file name -->
+    <ExecutableArguments>
+      /C echo It works properly for .json extension-- File {0} &gt; F:\Works\InfoConnect\Docuflo\Syclus\SyclusFolders\Temp\it_works.json
+    </ExecutableArguments>
+  </CustomFolderSettings>
+</ArrayOfCustomFolderSettings>
